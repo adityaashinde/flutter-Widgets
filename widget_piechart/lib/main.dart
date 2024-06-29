@@ -38,16 +38,16 @@ class _PieStateDemo extends State {
         backgroundColor: Colors.purple,
         title: const Text("Pie Chart Demo"),
       ),
-      body: Center(
-        child: PieChart(
-          dataMap: data,
-          animationDuration: const Duration(milliseconds: 2000),
-          chartType: ChartType.ring,
-          chartRadius: 200,
-          ringStrokeWidth: 100,
-          centerText: "Total",
-        ),
-      ),
+      // body: Center(
+      //   child: PieChart(
+      //     dataMap: data,
+      //     animationDuration: const Duration(milliseconds: 2000),
+      //     chartType: ChartType.ring,
+      //     chartRadius: 200,
+      //     ringStrokeWidth: 100,
+      //     centerText: "Total",
+      //   ),
+      // ),
     );
   }
 }
